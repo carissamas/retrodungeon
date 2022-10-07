@@ -5,44 +5,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name ="viewport" content=""width=device-width, initial-scale="1.0">
-    <title> Retro Dungeon Traveller </title>
+    <title> Expedition Happiness </title>
     <link rel = "stylesheet" href="style.css" type = "text/css" />
 </head>
 
-<body style="background-color:#E1C4BD;">
-    <center>
-    <body>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">ABOUT ME</a></li>
-                <li><a href="#">EXPERIENCE</a></li>
-                <li><a href="#">PLACES</a></li>
-                <li><a href="#">MY BEAUTY ROUTINE</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-        <div class="style1" > <h1> Hi! I'm Carissa Mashinta Kurniawan </h1> </div>
-        <h2> Hi! My name is Carissa Mashinta </h2>
-        <p> People call me Carissa. This is the picture of myself :) </p>
-        <img src="./C56654B4-9C9D-4E7E-82DB-9D17F2BB215C.jpeg" width="600" height="800" class="center" />
-        <h2> I just graduated from MSc Business Analytics at University College London </h2>
-        <p> Please see the website of my Uni in this <a href = "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/business-analytics-msc"> link </a> </p> 
-        <p> Eventhough I have not get all my module marks yet, I considered my self graduated :D 
-            Please see my graduation picture below. </p>
-            <img src="./YOP00910.jpg" width="600" height="800" class="center" />
-            <p> Looks convincing isn't it ? </p>
-        <h2> Before THG, I worked in Indonesia for the past 6 years </h2>
-        <p> I started my career at Unilever as an Assistant Brand Manager, then I moved to 
-            Alibaba Group as an Category Manager, then before I came to UK for study, my last role was with Wunderman Thompson Commerce </p>
-        <h2> I love travelling so much! Planning of where to go next motivates me to wake up and earn money everyday haha.. </h2>
-            <p>Here are my favorite places:</p>
-        <ol>
-            <li> Iceland </li>
-            <li> Japan </li>
-            <li> Switzerland </li>
-            <li> Indonesia </li>
-        </ol>
-        <h2> Let's have a chat if you see me around! </h2>
-    </body>
-    </center> 
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#aboutme">ABOUT ME</a></li>
+            <li><a href="#collaboration">COLLABORATION</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main" > 
+            <h1 class="headings"> EXPEDITION <br> HAPPINESS </h1> 
+            <audio controls autoplay loop>
+                <source src="audio/audio1.mp3" type ="audio/mpeg"/>
+            </audio>
+        </div>
+    </section>
+
+    <section id="aboutme">
+        <h1 class="headings"> ABOUT ME </h1>
+        <div id ="pic">
+            <img src="img2.jpg" alt="">
+            <div id="introduction">
+                <h2> CARISSA MASHINTA KURNIAWAN</h2>
+                <p> I'm from Indonesia. I moved to London last year to continue my Master degree. I graduated from <br> MSc Business Analytics at University College London in September 2022. Please see the website of my University in this <a href = "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/business-analytics-msc"> link</a>. Eventhough I have not get all my module marks yet, I considered my self graduated :D As you can see on the left, my graduation photoshot :) 
+                </p>
+                <br>
+                <p> Before THG, I worked in Indonesia for the past 6 years. I started my career at Unilever as an Assistant Brand Manager. Working at Unilever was very competitive, was not really my favorite experience.
+                     Therefore, I decided to move to Lazada (an Alibaba Group Company) as a Category Manager. Lazada is one of the biggest eCommerce platform in Southeast Asia!
+                     I was having so much fun at Lazada! I spent 2 happy years at Lazada.
+                     Soon after that, I decided to join Wunderman Thompson Commerce as an eCommerce Manager before I came to UK for study.
+                     At Wunderman Thompson Commerce, I developed my leadership skill a lot!
+                 </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="home">
+        <div class="main" > 
+            <h1 class="headings"> EXPEDITION <br> HAPPINESS </h1> 
+            <audio controls autoplay loop>
+                <source src="audio/audio1.mp3" type ="audio/mpeg"/>
+            </audio>
+        </div>
+    </section>
+
+    <section id="collaboration">
+        <h1 class="headings"> COLLABORATION </h1>
+        <div id ="pic">
+            <img src="/image/img5.jpeg" alt="">
+            <div id="introduction">
+                <h2> ICELAND </h2>
+                <h3> The land of Ice and Fire</h3>
+                <p> I love travelling so much! 
+                    Planning of where to go next motivates me to wake up and earn money everyday.
+                    I feel calm and free when I visit new places. The curiosity inside me is telling me to keep wander around the world.
+                    And I will never stop looking for new places. 
+                </p>
+                <br>
+                <p>
+                    Iceland, is one of the most impressive place I have ever been so far.
+                    There are so much strangely beautiful landscape to explore in Iceland.
+                    The land magically bring calm and heal my soul. 
+                    I am going back to Iceland next summer and I am opening a collaboration proposal.
+                    I call this trip "Expedition Happiness".
+                    It can be anything! Product photoshot, landscape photoshot, or even travelling buddy.
+                    Feel free to reach me our if you are interested!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings"> CONTACT </h1>
+        <form action="" class = "form">
+            <input type = "text" name = "name" class ="input" placeholder = "Enter Your Name">
+            <input type="email" name="email" class = "input" placeholder ="Enter Your Email">
+            <textarea name ="msg" id= "msg" cols = "30" rows = "10" placeholder="Enter Your Message">
+            </textarea>
+            <input type = "submit" value ="SEND" id ="send">
+        </form>
+    </section>
+
+</body>
 </html>
