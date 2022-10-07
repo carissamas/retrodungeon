@@ -90,7 +90,6 @@ html{
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
-    height: 1150px;
 }
 
 #pic{
@@ -98,8 +97,8 @@ html{
 }
 
 #pic img{
-    width: 600px;
-    height: 800px;
+    width: 700px;
+    height: 900px;
 }
 
 #introduction{
@@ -210,4 +209,3 @@ padding: 20px;
     box-shadow: 0 0 10px;
     color: white;
 }
-
